@@ -24,7 +24,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y build-essential libffi-dev git pkg-config gcc-arm-none-eabi
-          pip install pyelftools dash dash_bootstrap_components gdown pandas plotly
+          pip install pyelftools dash dash_bootstrap_components gdown pandas plotly ipywidgets bgplot
 
       - name: Install mamba
         uses: mamba-org/setup-micromamba@v2.0.6
