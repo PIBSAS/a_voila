@@ -6,6 +6,3 @@ dependencies:
   - xeus-python
   - pandas
   - bqplot
-  - gdown
-  - dash
-  - dash_bootstraps_components
